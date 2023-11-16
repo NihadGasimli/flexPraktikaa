@@ -1,0 +1,320 @@
+.menu{
+    background-color: #333333;
+    position: fixed;
+    width: 100%;
+}
+.menu ul{
+    display: flex;
+    gap: 2em;
+    height: 50px;
+    justify-content: flex-end;
+    padding-right: 20px;
+    align-items: center;
+}
+.menu a{
+    font-size: 20px;
+    text-decoration: solid;
+    color: white;
+}
+.menu ul li:nth-child(1) img{
+    width: 70px;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+.menu ul li:nth-child(2) {
+    margin-left: auto;
+}
+
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    height: 100vh;
+    column-gap: 10px;
+    padding: 0px 100px;
+    box-sizing: border-box;
+}
+
+section p {
+    font-size: 50px;
+    color: white;
+}
+
+.A {
+    background-color: red;
+}
+
+.B {
+    background-color: blue;
+}
+
+.C {
+    background-color: yellow;
+}
+
+.D {
+    background-color: green;
+}
+
+.E {
+    background-color: orange;
+}
+
+.F {
+    background-color: purple;
+}
+
+.G {
+    background-color: rgb(128, 0, 26);
+}
+
+.H {
+    background-color: rgb(0, 238, 255);
+}
+
+.I {
+    background-color: VIOLET;
+}
+
+.A:hover,
+.B:hover,
+.C:hover,
+.D:hover,
+.E:hover,
+.F:hover,
+.G:hover,
+.H:hover,
+.I:hover {
+    box-shadow: 0px 0px 30px black;
+}
+
+.A,
+.B,
+.C,
+.D,
+.E,
+.F,
+.G,
+.H,
+.I {
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
+.lorem p{
+    color: black;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+section2{
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+    padding-bottom: 30px;
+}
+.first{
+    height: 400px;
+    width: 350px;
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+.first h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+.first h1{
+    font-size: 70px;
+    font-weight: bold;
+}
+.first a{
+    font-size:30px ;
+    text-decoration: solid;
+    color: white;
+    background-color: orange;
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: auto;
+    margin-bottom: 5px;
+
+}
+.second{
+    height: 400px;
+    width: 350px;
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+.second h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+.second h1{
+    font-size: 70px;
+    font-weight: bold;
+}
+.second a{
+    font-size:30px ;
+    text-decoration: solid;
+    color: white;
+    background-color: orange;
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: auto;
+    margin-bottom: 5px;
+
+}
+.third{
+    height: 400px;
+    width: 350px;
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+.third h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+.third h1{
+    font-size: 70px;
+    font-weight: bold;
+}
+.third a{
+    font-size:30px ;
+    text-decoration: solid;
+    color: white;
+    background-color: orange;
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: auto;
+    margin-bottom: 5px;
+
+}
+.first a:hover{
+    background-color:rgb(83, 55, 3) ;
+}
+.second a:hover{
+    background-color:rgb(83, 55, 3) ;
+}
+.third a:hover{
+    background-color:rgb(83, 55, 3) ;
+}
+.contactText{
+    display: flex;
+    justify-content: center;
+}
+section3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 280px;
+    background-color: #F2F2F2;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 5px black;
+
+}
+.form label{
+    font-size: 15px;
+}
+.form input{
+    padding: 5px 50px;
+    margin-bottom: 10px;
+}
+.message textarea{
+    padding: 15px 50px;
+    margin-bottom: 30px;
+}
+.submitButton a{
+    padding: 10px 50px;
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    border: 1px solid green;
+    border-radius: 5px;
+    text-decoration: solid;
+}
+.submitButton a:hover{
+    background-color: rgb(4, 98, 4);
+}
+.contactText{
+    width: 100px;
+    font-size:20px ;
+}
+section4{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+section4 img{
+    width: 250px;
+    padding-top: 20px;
+}
+.card1, .card2 , .card3 , .card4{
+    background-color: #989393;
+    width: 300px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+}
+.card1:hover, .card2:hover , .card3:hover, .card4:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 100);
+    padding: 1px;
+}
+section4 h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+section4 p{
+    text-align: center;
+    font-size: 20px;
+}
+.card1 div{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.card2 div{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.card3 div{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.card4 div{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
